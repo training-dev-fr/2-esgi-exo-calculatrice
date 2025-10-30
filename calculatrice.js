@@ -2,10 +2,6 @@ const fielda = document.querySelector('#fielda');
 const fieldb = document.querySelector('#fieldb');
 const resultField = document.querySelector('.result');
 
-
-const resultField = document.querySelector('.result');
-
-
 const substractButton = document.querySelector('#calculateSubstract');
 const sumButton = document.querySelector('#calculateSum');
 
