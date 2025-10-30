@@ -4,6 +4,7 @@ const resultField = document.querySelector('.result');
 
 const substractButton = document.querySelector('#calculateSubstract');
 const sumButton = document.querySelector('#calculateSum');
+const multiplyButton = document.querySelector('#calculateMultiply');
 
 function substract(a,b){
     return a-b;
@@ -11,6 +12,10 @@ function substract(a,b){
 
 function sum(a,b){
     return a+b;
+}
+
+function multiply(a,b){
+    return a*b;
 }
 
 function showResult(result){
@@ -26,3 +31,9 @@ sumButton.addEventListener('click',function(){
     let result = sum(parseFloat(fielda.value),parseFloat(fieldb.value));
     showResult(result);
 })
+
+multiplyButton.addEventListener('click',function(){
+    let result = multiply(parseFloat(fielda.value),parseFloat(fieldb.value));
+    showResult(result);
+})
+
